@@ -1,0 +1,23 @@
+## name: startsiden-puppet-selenium-grid-manifest
+#
+### author: Johan Sydseter
+#
+### source: https://github.com/johansyd/startsiden-puppet-site-manifest
+#
+### license: GNU
+#
+### summary: Puppet manifests for the startsiden selenium grid
+#
+### description: Manifests that defines the staging of puppet configuration
+autoinstallver: 1
+name: startsiden-puppet-selenium-grid-manifest
+version: 13.09-01
+excludeext:
+  - .git
+  - .gitignore
+  - .md
+excludedir:
+  - t
+chroot_test: 1
+installdir: /etc/puppet/manifests/
+tests: t/
