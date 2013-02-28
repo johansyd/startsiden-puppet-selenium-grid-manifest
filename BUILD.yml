@@ -19,5 +19,5 @@ excludeext:
 excludedir:
   - t
 chroot_test: 1
-installdir: /etc/puppet/manifests/
+installdir: /etc/puppet/manifests/nodes
 tests: t/
